@@ -13,10 +13,8 @@
 
     <!-- Navbar -->
     <header>
-        <nav>
-            <button>View Highscores</button>
-            <p>Time:</p>
-        </nav>
+        <button>View Highscores</button>
+        <p>Time:</p>
     </header>
 
     <main>
@@ -29,25 +27,46 @@
         </section>
 
         <!-- Quiz questions -->
-        <section>
+        <div>
+            <h2>Question here</h2>
             <!-- five questions with 4 options -->
-        </section>
+            <div>
+                <p><button>q1</button></p>
+                <p><button>q2</button></p>
+                <p><button>q3</button></p>
+                <p><button>q4</button></p>
+                <hr>
+                <p>check wrong or right</p>
+            </div>
+        </div>
 
         <!-- Save initials -->
         <section>
             <h1>All done!</h1>
-            <p>Your final score is</p>
-            <form></form>
+            <p>Your final score is 000</p>
+            <form>
+                <label>Enter Initials:</label>
+                <input type="text" id="initials" value="">
+                <button>Submit</button>
+            </form>
         </section>
 
 
         <!-- Highscores -->
-        <section>
+        <div>
             <h1>Highscores</h1>
-            <div></div>
+            <ol>
+                <!-- scores listed here -->
+                <li>
+                    highest score here
+                </li>
+                <li>
+                    lowest score here
+                </li>
+            </ol>
             <button>Go Back</button>
             <button>Clear Highscores</button>
-        </section>
+        </div>
 
 
     </main>
